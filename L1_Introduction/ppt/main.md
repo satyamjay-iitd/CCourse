@@ -27,6 +27,35 @@ Why Learn C?
 
 <!-- end_slide -->
 
+First C Program
+---
+<!-- column_layout: [1, 1] -->
+
+<!-- column: 0 -->
+```c
+#include <stdio.h>
+
+int main() {
+    printf("Hello, world\n");
+    return 0;
+}
+```
+<!-- pause -->
+
+<!-- column: 1 -->
+# Breaking down the Program
+<!-- incremental_lists: true -->
+1. `#include <stdio.h>`
+  - Makes printf available
+2. `int main()`
+  - Entry point of program
+3. `printf`
+  - Prints to standard output
+4. `return 0`
+  - Tell OS program ran successfully
+
+<!-- end_slide -->
+
 Interpreted vs Compiled
 ---
 
@@ -61,35 +90,6 @@ Interpreted vs Compiled
 5. **Executable Binary**
 
 
-
-<!-- end_slide -->
-
-First C Program
----
-<!-- column_layout: [1, 1] -->
-
-<!-- column: 0 -->
-```c
-#include <stdio.h>
-
-int main() {
-    printf("Hello, world\n");
-    return 0;
-}
-```
-<!-- pause -->
-
-<!-- column: 1 -->
-# Breaking down the Program
-<!-- incremental_lists: true -->
-1. `#include <stdio.h>`
-  - Makes printf available
-2. `int main()`
-  - Entry point of program
-3. `printf`
-  - Prints to standard output
-4. `return 0`
-  - Tell OS program ran successfully
 
 <!-- end_slide -->
 
